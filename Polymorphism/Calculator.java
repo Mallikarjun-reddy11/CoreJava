@@ -10,11 +10,11 @@ public int add(int a,int b,int c) {
 	return a+b+c;
 }
 public double add(double a,double b) {
-	System.out.println(" 2 parameters with diff intialisation");
+	System.out.println("2 parameters with diff intialisation");
 	return a+b;
 }
 static  void add(int a,double b) {
-	System.out.println(" 2 parameters with static ");
+	System.out.println("2 parameters with static ");
 	
 }
 }
