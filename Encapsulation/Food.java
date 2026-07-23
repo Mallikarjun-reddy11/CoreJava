@@ -1,5 +1,4 @@
 package Encapsulation;
-
 public class Food {
 int id;
 String customername;
