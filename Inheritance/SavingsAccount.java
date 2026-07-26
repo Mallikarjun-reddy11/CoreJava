@@ -13,4 +13,4 @@ public class SavingsAccount extends Account {
         double interest = (balance * interestRate) / 100;
         System.out.println("Interest Earned : Rs." + interest);
     }
-}
+} 
