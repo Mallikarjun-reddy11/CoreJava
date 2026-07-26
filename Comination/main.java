@@ -5,7 +5,7 @@ public class main {
 
         Surgeon s = new Surgeon(
                 101,
-                "Dr. Ravi ",
+                "Dr. Sri Ram  ",
                 "General Surgery",
                 "Heart Surgery",
                 12);
