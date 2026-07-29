@@ -8,6 +8,7 @@ public static void main(String[] args) {
 		sum=sum+arr[i];
 		
 	}
-	System.out.println("Sum: "+sum);
+	double avg=sum/arr.length;;
+	System.out.println("Sum: "+sum+"\n"+"Average: "+avg);
 }
 }
