@@ -5,7 +5,7 @@ public class ShoppingOrder {
 		if (request > stock) {
 			throw new StockInsufficient("The selected order stock is insufficient");
 		} else {
-			System.out.println("Enter the quantity: " + request);
+			System.out.println("Quantity: " + request);
 			System.out.println("Product: " + product);
 			System.out.println("The order is confirmed");
 			int remaining = stock - request;
@@ -15,7 +15,7 @@ public class ShoppingOrder {
 
 	public static void main(String[] args) throws StockInsufficient {
 		try {
-			ShoppingOrder(200, 205, "Laptop");
+			ShoppingOrder(200, 20, "Laptop");
 
 		} catch (StockInsufficient e) {
 			System.out.println(e.getMessage());
