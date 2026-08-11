@@ -1,5 +1,4 @@
 package com.CoreJava.Strings;
-
 public class Palindrome {
 	public static void main(String[] args) {
 		String name = "madam";
@@ -22,6 +21,5 @@ public class Palindrome {
 		} else {
 			System.out.println("Not a palindrome");
 		}
-
 	}
 }
